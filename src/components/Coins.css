@@ -1,0 +1,114 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #26272b;
+    box-shadow: 0px 0px 12px #18191b;
+    border-radius: 8px;
+    margin: 2rem 1rem;
+    padding: .7rem 1rem;
+    font-weight: 700;
+}
+
+.coin-name {
+    margin-left: -4rem;
+}
+
+.coin-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #26272b;
+    box-shadow: 0px 0px 12px #18191b;
+    border-radius: 8px;
+    margin: 2rem 1rem;
+    padding: .7rem 1rem;
+}
+
+.coin-row:hover {
+    transform: scale(1.04);
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+img {
+    height: 40px;
+    margin-right: 8px;
+    width: auto;
+}
+
+.img-symbol {
+    display: flex;
+    align-items: center;
+}
+
+.containerData {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.formSty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 18px;
+  font-family: 'Roboto Mono', monospace;
+  border-radius: 5px;
+  margin:10px;
+  border: 2px solid gray;
+  transition: all 0.3s ease-in-out;
+}
+
+input[type="text"]:focus {
+  border-color: blue;
+  outline: none;
+}
+
+button {
+  margin:5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: lightblue;
+}
+
+button:active {
+  transform: translateY(2px);
+}
+
+
+
+@media screen and (max-width: 720px) {
+    .hide-mobile {
+        display: none;
+    }
+  .formSty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+}
